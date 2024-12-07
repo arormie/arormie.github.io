@@ -7,6 +7,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>arormie</title>
     <link rel="stylesheet" href="styles.css">
+	<!-- page content -->
 </head>
 <body>
     <header>
@@ -60,7 +61,6 @@ var bubbx=new Array();
 var bubby=new Array();
 var bubbs=new Array();
 var sploosh=false;
-
 function addLoadEvent(funky) {
   var oldonload=window.onload;
   if (typeof(oldonload)!='function') window.onload=funky;
@@ -69,9 +69,7 @@ function addLoadEvent(funky) {
     funky();
   }
 }
-
 addLoadEvent(buble);
-
 function buble() { if (document.getElementById) {
   var i, rats, div;
   for (i=0; i<bubbles; i++) {
@@ -233,16 +231,16 @@ function createDiv(height, width) {
 }
 </script>
 <!-- password system -->
-<SCRIPT language="JavaScript">
-<!--hide
+<script language="JavaScript">
 var password;
 var pass1="arihasletyouin.";
 password=prompt('Please enter your password to view this page!',' ');
 if (password==pass1)
 alert('Password Correct! Click OK to enter!');
-//-->
-</SCRIPT>
+</script>
+	
 <!-- music player. this music player was made by Glenthemes -->
+	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <link href="//fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 <script src="https://static.tumblr.com/2pnwama/DLppehqvd/feathericons.js"></script>
