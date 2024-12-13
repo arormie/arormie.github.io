@@ -47,12 +47,13 @@ li {
 }
 li a {
   display: block;
-  color: white;
+  color: lightblue;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   background-color:black;
 }
 li a:hover {
+    color:blue;
   background-color: black;
 }
