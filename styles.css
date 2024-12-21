@@ -31,10 +31,7 @@ body {
     font-weight: 100;
     color:white;
 }
-#gradient {
-  height: 200px;
-  background-color: black;
-  background-image: linear-gradient(black, white);
+
 }
 ul {
   list-style-type: none;
